@@ -1,3 +1,5 @@
+[Home](/) | [Gallery](/gallery) | [About](/about) | [Contact](/contact)
+
 # Windwood Woodworking
 
 Welcome to my workshop.  
