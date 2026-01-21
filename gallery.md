@@ -5,7 +5,7 @@ A look at some of my recent and past woodworking projects.
 ---
 
 ## CNC Carved Work
-![CNC Carved Example](images/Steampunk_Bee 1.jpg)
+![CNC Carved Example](images/Steampunk_Bee_1.jpg)
 ![Live Edge Example](images/Yoga_Sign.jpg)
 
 ---
