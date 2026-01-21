@@ -4,9 +4,9 @@ A look at some of my recent and past woodworking projects.
 
 ---
 
-## Live-Edge Work
-![Live Edge Example](images/live-edge-1.jpg)
-![Live Edge Example](images/live-edge-2.jpg)
+## CNC Carved Work
+![CNC Carved Example](images/Steampunk_Bee 1.jpg)
+![Live Edge Example](images/Yoga_Sign.jpg)
 
 ---
 
