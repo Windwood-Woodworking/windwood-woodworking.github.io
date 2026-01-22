@@ -6,7 +6,14 @@ A look at some of my recent and past woodworking projects.
 
 ## CNC Carved Work
 ![CNC Carved Example](images/Steampunk_Bee_1.jpg)
-![Live Edge Example](images/Yoga_Sign.jpg)
+<p align="center">
+  <img src="Skull%20and%20Gears.jpg" width="600">
+</p>
+
+<p align="center">
+  <img src="images/Yoga_Sign.jpg" width="600">
+</p>
+
 
 ---
 
