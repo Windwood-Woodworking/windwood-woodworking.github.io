@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="index.md">Home</a> |
+  <a href="gallery.md">Gallery</a> |
+  <a href="about.md">About</a> |
+  <a href="contact.md">Contact</a>
+</p>
+
 # Gallery
 
 A look at some of my recent and past woodworking projects.
@@ -7,7 +14,7 @@ A look at some of my recent and past woodworking projects.
 ## CNC Carved Work
 ![CNC Carved Example](images/Steampunk_Bee_1.jpg)
 <p align="center">
-  <img src="Skull%20and%20Gears.jpg" width="600">
+  <img src="images/Skull%20and%20Gears.jpg" width="400">
 </p>
 
 <p align="center">
