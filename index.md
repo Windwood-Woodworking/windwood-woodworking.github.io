@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="index.md">Home</a> |
+  <a href="gallery.md">Gallery</a> |
+  <a href="about.md">About</a> |
+  <a href="contact.md">Contact</a>
+</p>
+
 [Home](/) | [Gallery](/gallery) | [About](/about) | [Contact](/contact)
 
 # Windwood Woodworking
