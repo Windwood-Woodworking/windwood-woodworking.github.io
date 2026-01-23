@@ -12,6 +12,12 @@ Hand‑crafted frames blending joinery, carving, and refined finishing.
        width="600"
        style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
+<div style="text-align: center; margin: 40px 0;">
+  <div style="display: inline-block; padding: 10px; border: 4px solid red; background: yellow;">
+    <img src="images/ww-mirror-frame-101.jpg" width="600">
+  </div>
+</div>
+
 
 <div style="text-align: center; margin: 40px 0;">
   <div style="display: inline-block; padding: 10px; border: 2px solid #ccc; border-radius: 6px; background: yellow;">
