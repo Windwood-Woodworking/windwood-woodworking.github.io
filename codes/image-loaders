@@ -1,0 +1,33 @@
+🟫 Center a single image with spacing + border
+This is the pattern you’ve already been using, just enhanced:
+
+html
+<p align="center">
+  <img src="images/wall-art-001.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px;">
+</p>
+
+  🟫 Put two images side by side with borders
+Just combine the styles:
+
+html
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="images/wall-art-001.jpg"
+       width="300"
+       style="border: 2px solid #ccc; border-radius: 4px;">
+  <img src="images/wall-art-002.jpg"
+       width="300"
+       style="border: 2px solid #ccc; border-radius: 4px;">
+</div>
+  
+
+  🟫 Put three images in a row
+Same idea — flexbox handles it:
+
+html
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="images/wall-art-001.jpg" width="250">
+  <img src="images/wall-art-002.jpg" width="250">
+  <img src="images/wall-art-003.jpg" width="250">
+</div>
