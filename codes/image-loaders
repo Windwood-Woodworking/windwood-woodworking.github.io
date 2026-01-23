@@ -1,7 +1,8 @@
 🟫 Center a single image with spacing + border
 This is the pattern you’ve already been using, just enhanced:
 
-html
+
+
 <p align="center">
   <img src="images/wall-art-001.jpg"
        width="600"
@@ -11,7 +12,8 @@ html
   🟫 Put two images side by side with borders
 Just combine the styles:
 
-html
+
+
 <div style="display: flex; gap: 20px; justify-content: center;">
   <img src="images/wall-art-001.jpg"
        width="300"
@@ -25,9 +27,320 @@ html
   🟫 Put three images in a row
 Same idea — flexbox handles it:
 
-html
+
+
 <div style="display: flex; gap: 20px; justify-content: center;">
   <img src="images/wall-art-001.jpg" width="250">
   <img src="images/wall-art-002.jpg" width="250">
   <img src="images/wall-art-003.jpg" width="250">
 </div>
+
+🌿1. Centered Image With Border + Caption
+
+
+<p align="center">
+  <img src="images/example.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px;">
+  <br>
+  <em>Your caption here</em>
+</p>
+
+🌿2. Two Images Side‑by‑Side With Captions
+
+
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <div style="text-align: center;">
+    <img src="images/example1.jpg" width="300"
+         style="border: 2px solid #ccc; border-radius: 4px;">
+    <br><em>Caption 1</em>
+  </div>
+  <div style="text-align: center;">
+    <img src="images/example2.jpg" width="300"
+         style="border: 2px solid #ccc; border-radius: 4px;">
+    <br><em>Caption 2</em>
+  </div>
+</div>
+
+🌿 3. Three‑Across Gallery Row (auto‑wraps on mobile)
+
+
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+  <img src="images/example1.jpg" width="250" style="border: 2px solid #ccc;">
+  <img src="images/example2.jpg" width="250" style="border: 2px solid #ccc;">
+  <img src="images/example3.jpg" width="250" style="border: 2px solid #ccc;">
+</div>
+
+🌿 4. Full‑Width Banner Image
+
+
+<img src="images/example.jpg"
+     style="width: 100%; max-width: 1200px; display: block; margin: 0 auto;">
+
+
+🌿 5. Text Block With Image Floating Left
+
+
+<img src="images/example.jpg"
+     width="300"
+     style="float: left; margin: 0 20px 20px 0; border: 2px solid #ccc;">
+
+<p>
+Your paragraph text goes here. This layout is great for “About Me” pages,
+project write‑ups, or anything where you want text to wrap naturally around
+an image.
+</p>
+
+🌿 6. Text Block With Image Floating Right
+
+
+<img src="images/example.jpg"
+     width="300"
+     style="float: right; margin: 0 0 20px 20px; border: 2px solid #ccc;">
+
+<p>
+Same idea as the left‑float version, but mirrored. Perfect for alternating
+layouts on long pages.
+</p>
+
+🌿 7. Horizontal Divider (for clean section breaks)
+
+
+<hr style="margin: 40px 0; border: none; border-top: 2px solid #ccc;">
+
+🌿 8. Section Header With Centered Title
+
+
+<h2 style="text-align: center; margin-top: 40px;">Section Title</h2>
+
+🌿 9. Quote Block (for your meditative phrases)
+
+
+<p style="text-align: center; font-style: italic; margin: 30px 0;">
+  “Your quiet, resonant phrase goes here.”
+</p>
+
+🌿 10. Clean Button Link (for Contact, Gallery, etc.)
+
+
+<p style="text-align: center;">
+  <a href="/contact"
+     style="padding: 10px 20px; background: #333; color: white;
+            text-decoration: none; border-radius: 4px;">
+    Contact Me
+  </a>
+
+🌿 11. Two‑Column Text Layout
+
+
+<div style="display: flex; gap: 40px; justify-content: center;">
+  <div style="width: 45%;">
+    <p>Left column text goes here.</p>
+  </div>
+  <div style="width: 45%;">
+    <p>Right column text goes here.</p>
+  </div>
+</div>
+</p>
+
+🌿 12. Image Grid (4‑up, responsive)
+
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
+  <img src="images/example1.jpg" style="width: 100%; border: 2px solid #ccc;">
+  <img src="images/example2.jpg" style="width: 100%; border: 2px solid #ccc;">
+  <img src="images/example3.jpg" style="width: 100%; border: 2px solid #ccc;">
+  <img src="images/example4.jpg" style="width: 100%; border: 2px solid #ccc;">
+</div>
+
+---
+
+# 🍃 SINGLE IMAGE (Centered, Border, Spacing)
+```html
+<p align="center">
+  <img src="images/your-image.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px;">
+</p>
+```
+
+---
+
+# 🍃 TWO IMAGES SIDE BY SIDE
+```html
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="images/your-image1.jpg" width="300">
+  <img src="images/your-image2.jpg" width="300">
+</div>
+```
+
+---
+
+# 🍃 THREE IMAGES IN A ROW
+```html
+<div style="display: flex; gap: 20px; justify-content: center;">
+  <img src="images/your-image1.jpg" width="250">
+  <img src="images/your-image2.jpg" width="250">
+  <img src="images/your-image3.jpg" width="250">
+</div>
+```
+
+---
+
+# 🍃 FULL‑WIDTH BANNER IMAGE
+```html
+<img src="images/your-image.jpg"
+     style="width: 100%; max-width: 1200px; display: block; margin: 0 auto;">
+```
+
+---
+
+# 🍃 FLOAT LEFT (Image + Text Wrap)
+```html
+<img src="images/your-image.jpg"
+     width="300"
+     style="float: left; margin: 0 20px 20px 0; border: 2px solid #ccc;">
+
+<p>
+Your text goes here.
+</p>
+
+<div style="clear: both;"></div>
+```
+
+---
+
+# 🍃 FLOAT RIGHT (Image + Text Wrap)
+```html
+<img src="images/your-image.jpg"
+     width="300"
+     style="float: right; margin: 0 0 20px 20px; border: 2px solid #ccc;">
+
+<p>
+Your text goes here.
+</p>
+
+<div style="clear: both;"></div>
+```
+
+---
+
+# 🍃 QUOTE BLOCK (Meditative Phrase)
+```html
+<p style="text-align: center; font-style: italic; margin: 30px 0;">
+  “Your quiet, resonant phrase goes here.”
+</p>
+```
+
+---
+
+# 🍃 SECTION DIVIDER
+```html
+<hr style="margin: 40px 0; border: none; border-top: 2px solid #ccc;">
+```
+
+---
+
+# 🍃 TWO‑COLUMN TEXT
+```html
+<div style="display: flex; gap: 40px; justify-content: center;">
+  <div style="width: 45%;">
+    <p>Left column text goes here.</p>
+  </div>
+  <div style="width: 45%;">
+    <p>Right column text goes here.</p>
+  </div>
+</div>
+```
+
+---
+
+# 🍃 IMAGE WITH SHADOW
+```html
+<img src="images/your-image.jpg"
+     width="600"
+     style="margin: 20px; border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+```
+
+---
+
+# 🍃 CALLOUT BOX
+```html
+<div style="border: 2px solid #ccc; padding: 20px; margin: 30px 0;
+            border-radius: 6px; background: #f9f9f9;">
+  <p style="margin: 0;">
+    This is a callout box for notes or descriptions.
+  </p>
+</div>
+```
+
+---
+
+# 🍃 SIMPLE NAV BUTTON
+```html
+<a href="/wall-art"
+   style="padding: 10px 20px; background: #333; color: white;
+          text-decoration: none; border-radius: 6px;">
+  Wall Art
+</a>
+```
+
+---
+
+# 🍃 LIGHT NAV BUTTON
+```html
+<a href="/boxes"
+   style="padding: 10px 20px; background: #eee; color: #333;
+          text-decoration: none; border-radius: 6px; border: 1px solid #ccc;">
+  Boxes
+</a>
+```
+
+---
+
+# 🍃 OUTLINE NAV BUTTON
+```html
+<a href="/contact"
+   style="padding: 10px 20px; color: #333; border: 2px solid #333;
+          text-decoration: none; border-radius: 4px;">
+  Contact
+</a>
+```
+
+---
+
+# 🍃 CENTERED BUTTON ROW
+```html
+<p style="text-align: center; margin: 20px 0;">
+  <a href="/wall-art"
+     style="padding: 10px 20px; background: #333; color: white;
+            text-decoration: none; border-radius: 4px; margin: 0 10px;">
+    Wall Art
+  </a>
+
+  <a href="/boxes"
+     style="padding: 10px 20px; background: #333; color: white;
+            text-decoration: none; border-radius: 4px; margin: 0 10px;">
+    Boxes
+  </a>
+
+  <a href="/contact"
+     style="padding: 10px 20px; background: #333; color: white;
+            text-decoration: none; border-radius: 4px; margin: 0 10px;">
+    Contact
+  </a>
+</p>
+```
+
+---
+
+# 🍃 FOOTER BAR
+```html
+<hr style="margin: 40px 0;">
+<p style="text-align: center; color: #777; font-size: 14px;">
+  © Windwood Woodworking
+</p>
+```
+
+---
