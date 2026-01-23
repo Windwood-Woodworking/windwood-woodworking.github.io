@@ -20,10 +20,10 @@ layout: default
 Explore the different collections of my work.  
 Each gallery highlights a unique facet of craft, texture, and design.
 
-- [Wall Art](/wall_art)
-- [Mirror Frames](/mirror_frames)
-- [Relief Carvings](/relief_carvings)
-- [Furniture](/furniture)
-- [Fireplace Mantels](/fireplace_mantels)
-- [Boxes](/boxes)
+- [Wall Art](/wall_art.html)
+- [Mirror Frames](/mirror_frames.html)
+- [Relief Carvings](/relief_carvings.html)
+- [Furniture](/furniture.html)
+- [Fireplace Mantels](/fireplace_mantels.html)
+- [Boxes](/boxes.html)
 
