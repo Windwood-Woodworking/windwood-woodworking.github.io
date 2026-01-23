@@ -6,7 +6,12 @@ layout: default
 # Mirror Frames
 
 Hand‑crafted frames blending joinery, carving, and refined finishing.
-
+```
+<p align="center">
+  <img src="images/ww-mirror-frame-104.jpg width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px;">
+</p>
+```
 <p align="center">
   <img src="images/ww-mirror-frame-104.jpg" width="600">
   style="margin: 20px; border: 2px solid #ccc; border-radius: 4px;">
