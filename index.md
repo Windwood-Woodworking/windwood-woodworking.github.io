@@ -1,6 +1,6 @@
 <p align="center">
   <a href="index.md">Home</a> |
-  <a href="galleries.md">Galleries</a> |
+  <a href="/galleries">Galleries</a> |
   <a href="about.md">About</a> |
   <a href="contact.md">Contact</a>
 </p>
