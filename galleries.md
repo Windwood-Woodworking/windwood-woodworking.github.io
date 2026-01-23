@@ -1,3 +1,8 @@
+---
+title: Galleries
+layout: default
+---
+
 <p align="center">
   <a href="index.md">Home</a> |
   <a href="gallery.md">Gallery</a> |
