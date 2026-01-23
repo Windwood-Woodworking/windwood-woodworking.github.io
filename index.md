@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Home
+class: homepage
 ---
+
 
 <p align="center">
   <img src="images/ww-cnc-carving-060.jpg" width="600" alt="CNC Carving">
