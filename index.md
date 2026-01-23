@@ -5,7 +5,9 @@
   <a href="contact.md">Contact</a>
 </p>
 
-
+<p align="center">
+  <img src="images/cnc_relief_carving_windwood#170" width="600">
+</p>
 # Windwood Woodworking
 
 Welcome to my workshop.  
