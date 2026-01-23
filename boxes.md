@@ -1,0 +1,39 @@
+---
+title: Boxes
+layout: default
+---
+
+# Boxes
+
+Keepsake boxes, joinery studies, and carved lids.
+
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
+<p align="center">
+  <img src="images/your file here" width="600">
+</p>
