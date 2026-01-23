@@ -8,35 +8,72 @@ layout: default
 A collection of carved panels, mandalas, textures, and sculptural wall pieces.
 
 <p align="center">
-  <img src="images/wall_art_windwood101.jpg" width="600">
+  <img src="images/ww-mirror-frame-144.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood136.jpg" width="600">
+  <img src="images/ww-mirror-frame-143.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood052.jpg" width="600">
+  <img src="images/ww-mirror-frame-146.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood061.jpg" width="600">
+  <img src="images/ww-mirror-frame-149.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood058.jpg" width="600">
+  <img src="images/ww-mirror-frame-150.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood062.jpg" width="600">
+  <img src="images/ww-mirror-frame-145.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood138.jpg" width="600">
+  <img src="images/ww-mirror-frame-151.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/wall_art_windwood149.jpg" width="600">
+  <img src="images/ww-mirror-frame-152.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/your title here" width="600">
+  <img src="images/ww-mirror-frame-148.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/your title here" width="600">
+  <img src="images/ww-mirror-frame-153.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
 <p align="center">
-  <img src="images/your title here" width="600">
+  <img src="images/ww-mirror-frame-157.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
+</p>
+<p align="center">
+  <img src="images/ww-mirror-frame-156.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
+</p>
+<p align="center">
+  <img src="images/ww-mirror-frame-154.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
+</p>
+<p align="center">
+  <img src="images/ww-mirror-frame-xxx.jpg"
+       width="600"
+       style="margin: 20px; border: 2px solid #ccc; border-radius: 4px; background: yellow;">
 </p>
