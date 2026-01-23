@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="--color--primary-hue:0;--color--primary-saturation:0%;--color--primary-lightness:16">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Home Page | Northwest Woodworkers Gallery</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_IA88LA9C0M_595m5QE7FAjVdl2un_siA-lL8x43VWGk.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_gebn4zGQP1Y2_tzgNI2i2Ygh0lqT4aq_qI9tukH9Kc4.css" />
+
+    
+    
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/metropolis/Metropolis-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/core/themes/olivero/fonts/lora/lora-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <noscript><link rel="stylesheet" href="/core/themes/olivero/css/components/navigation/nav-primary-no-js.css?t1xfal" />
+</noscript>
+  </head>
+  <body class="path-frontpage">
+        <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div id="page-wrapper" class="page-wrapper">
+  <div id="page">
+
+          <header id="header" class="site-header" data-drupal-selector="site-header" role="banner">
+
+                <div class="site-header__fixable" data-drupal-selector="site-header-fixable">
+          <div class="site-header__initial">
+            <button class="sticky-header-toggle" data-drupal-selector="sticky-header-toggle" role="switch" aria-controls="site-header__inner" aria-label="Sticky header" aria-checked="false">
+              <span class="sticky-header-toggle__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
+          </div>
+
+                    <div id="site-header__inner" class="site-header__inner" data-drupal-selector="site-header-inner">
+            <div class="container site-header__inner__container">
+
+              
+
+
+<div id="block-nwgtheme-site-branding" class="site-branding--bg-white site-branding block block-system block-system-branding-block">
+  
+    
+    <div class="site-branding__inner">
+          <a href="/" rel="home" class="site-branding__logo">
+        <img src="/sites/default/files/branding/RupertLogo.png" alt="Home" />
+      </a>
+          </div>
+</div>
+
+<div class="header-nav-overlay" data-drupal-selector="header-nav-overlay"></div>
+
+
+                              <div class="mobile-buttons" data-drupal-selector="mobile-buttons">
+                  <button class="mobile-nav-button" data-drupal-selector="mobile-nav-button" aria-label="Main Menu" aria-controls="header-nav" aria-expanded="false">
+                    <span class="mobile-nav-button__label">Menu</span>
+                    <span class="mobile-nav-button__icon"></span>
+                  </button>
+                </div>
+
+                <div id="header-nav" class="header-nav" data-drupal-selector="header-nav">
+                  
+<div class="search-block-form block block-search-narrow" data-drupal-selector="search-block-form" id="block-nwgtheme-search-form-narrow" role="search">
+  
+    
+      <div class="content">
+      <form action="/search/node" method="get" id="search-block-form" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys" class="form-item__label visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search by keyword or phrase." data-drupal-selector="edit-keys" type="search" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-search form-element form-element--type-search form-element--api-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><button class="button--primary search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search">
+    <span class="icon--search"></span>
+    <span class="visually-hidden">Search</span>
+</button>
+
+</div>
+
+</form>
+
+    </div>
+  </div>
+<nav  id="block-nwgtheme-main-menu" class="primary-nav block block-menu navigation menu--main" aria-labelledby="block-nwgtheme-main-menu-menu" role="navigation">
+            
+  <h2 class="visually-hidden block__title" id="block-nwgtheme-main-menu-menu">Main navigation</h2>
+  
+        
+
+
+          
+        
+    <ul  class="menu primary-nav__menu primary-nav__menu--level-1" data-drupal-selector="primary-nav-menu--level-1">
+            
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/our-designs" title="A list of the types of furniture we make" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="node/19356">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">Designs</span>
+          </a>
+
+            
+                  </li>
+      
+                          
+        
+        
+        <li class="primary-nav__menu-item primary-nav__menu-item--link primary-nav__menu-item--level-1">
+                              
+                      <a href="/artists" title="A list of our member furniture makers" class="primary-nav__menu-link primary-nav__menu-link--link primary-nav__menu-link--level-1" data-drupal-selector="primary-nav-menu-link-has-children" data-drupal-link-system-path="artists">            <span class="primary-nav__menu-link-inner primary-nav__menu-link-inner--level-1">Artists</span>
+          </a>
+
+            
+                  </li>
+          </ul>
+  
+
+
+  </nav>
+
+
+                  
+
+  <div class="region region--secondary-menu">
+    <div class="search-block-form block block-search-wide" data-drupal-selector="search-block-form-2" id="block-nwgtheme-search-form-wide" role="search">
+  
+    
+      <button class="block-search-wide__button" aria-label="Search Form" data-drupal-selector="block-search-wide-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23">
+  <path fill="currentColor" d="M21.7,21.3l-4.4-4.4C19,15.1,20,12.7,20,10c0-5.5-4.5-10-10-10S0,4.5,0,10s4.5,10,10,10c2.1,0,4.1-0.7,5.8-1.8l4.5,4.5c0.4,0.4,1,0.4,1.4,0S22.1,21.7,21.7,21.3z M10,18c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S14.4,18,10,18z"/>
+</svg>
+      <span class="block-search-wide__button-close"></span>
+    </button>
+
+        <div class="block-search-wide__wrapper" data-drupal-selector="block-search-wide-wrapper" tabindex="-1">
+      <div class="block-search-wide__container">
+        <div class="block-search-wide__grid">
+          <form action="/search/node" method="get" id="search-block-form--2" accept-charset="UTF-8" class="search-form search-block-form">
+  <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+      <label for="edit-keys--2" class="form-item__label visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search by keyword or phrase." data-drupal-selector="edit-keys" type="search" id="edit-keys--2" name="keys" value="" size="15" maxlength="128" class="form-search form-element form-element--type-search form-element--api-search" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><button class="button--primary search-form__submit button js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit--2" value="Search">
+    <span class="icon--search"></span>
+    <span class="visually-hidden">Search</span>
+</button>
+
+</div>
+
+</form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+                </div>
+                          </div>
+          </div>
+        </div>
+      </header>
+    
+    <div id="main-wrapper" class="layout-main-wrapper layout-container">
+      <div id="main" class="layout-main">
+        <div class="main-content">
+          <a id="main-content" tabindex="-1"></a>
+          
+  <div class="region region--hero">
+    
+
+<div id="block-homeblurb" class="block block-block-content block-block-content96533160-d5af-45f6-87c6-69b2590a9299">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="home-page-blurb">
+<div class="statement">
+<p>
+We believe that what we do is valuable and necessary to American culture. We believe it is our duty to ensure that making studio furniture remains a viable profession. We do this through educating our customers and the public on the value of good design and craftsmanship in furniture and the effort required to bring it to life. We understand that we offer more than heirloom-quality furniture—we offer a luxury service. It is our job as professionals to collaborate with our clients and meet their needs without sacrificing the integrity of our designs or the quality of our work.</p>
+<p>
+We created Northwest Woodworkers Gallery so that each of us could pursue our passion and contribute lasting works of art to the world.</p>
+<p>
+We create <strong>art with purpose</strong>.
+</p></div>
+</div></div>
+      
+    </div>
+  </div>
+
+  </div>
+
+          <div class="main-content__container container">
+            
+
+  <div class="region region--highlighted grid-full layout--pass--content-medium">
+    <div data-drupal-messages-fallback class="hidden messages-list"></div>
+
+  </div>
+
+            
+
+                          <main role="main">
+                
+                
+
+  <div class="region region--content grid-full layout--pass--content-medium" id="content">
+    
+
+<div id="block-nwgtheme-content" class="block block-system block-system-main-block">
+  
+    
+      <div class="block__content">
+      <div class="views-element-container"><div class="home-page-promo view view-home-page view-id-home_page view-display-id-page_1 js-view-dom-id-254b3213e694338c7447d5872349d5ac52bc5b61af8890974fa95ff04d14d309">
+  
+    
+      
+      <div class="view-content">
+      
+
+
+
+
+<div class="views-view-responsive-grid views-view-responsive-grid--horizontal" style="--views-responsive-grid--column-count:2;--views-responsive-grid--cell-min-width:100px;--views-responsive-grid--layout-gap:10px;">
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/judith-ames" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/ames.jpg?itok=gW3W1a9k" width="480" height="480" alt="Bird composed with marquetry inlaid into curly maple chair back" title="Lopez Chair by Judith Ames" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/judith-ames" hreflang="en">Judith Ames</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/reid-anderson" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/reid.jpg?itok=m3Ou8b5k" width="480" height="480" alt="Intricately carved cabinet door in curly maple" title="Cabinet by Reid Anderson" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/reid-anderson" hreflang="en">Reid Anderson</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/matthew-x-curry" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/curry.jpg?itok=RZCu9JZB" width="480" height="480" alt="Closeup of the design elements of hall table" title="Hall table by Matthew Curry" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/matthew-x-curry" hreflang="en">Matthew X. Curry</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/tom-and-jennifer-dolese" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/dolese.jpg?itok=7hfGZMTj" width="480" height="480" alt="Bed headboard with inlaid marquetry" title="Bed by Tom and Jennifer Dolese" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/tom-and-jennifer-dolese" hreflang="en">Tom and Jennifer Dolese</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/curtis-erpelding" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/curtis.jpg?itok=fJVl7091" width="480" height="480" alt="Closeup of drawer joinery" title="Desk and drawers by Curtis Erpelding" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/curtis-erpelding" hreflang="en">Curtis Erpelding</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/brad-gallahar" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/brad.jpg?itok=KElCSgbu" width="480" height="480" alt="Craftsman table and chairs in cherry and black leather" title="Craftsman table and chairs designed and built by Brad" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/brad-gallahar" hreflang="en">Brad Gallahar</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/austin-heitzman" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/gram3.jpg?itok=rWRHHu9P" width="480" height="480" alt="walnut burl coffee table with bonsai display" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/austin-heitzman" hreflang="en">Austin Heitzman</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/hank-holzer" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/hank.jpg?itok=HzoctcCM" width="480" height="480" alt="Modern chair in the shape of an inverted c-clamp" title="Chair by Hank Holzer" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/hank-holzer" hreflang="en">Hank Holzer</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/spencer-horn" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/spencer.jpg?itok=cv9Syj-p" width="480" height="480" alt="Traditional chest of drawers with brass handles" title="Chest of drawers by Spencer Horn" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/spencer-horn" hreflang="en">Spencer Horn</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/jonathan-kinsey" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/kinsey.jpg?itok=0Hcp1p4C" width="480" height="480" alt="Lounge chair with contemporary shaping and a cushion seat" title="Lounge chair by Jonathan Kinsey" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/jonathan-kinsey" hreflang="en">Jonathan Kinsey</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/grady-mathews" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/grady.jpg?itok=eAj-orgW" width="480" height="480" alt="Glass topped modern coffee table" title="Coffee Table by Grady Mathews" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/grady-mathews" hreflang="en">Grady Mathews</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/hugh-montgomery" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/hugh.jpg?itok=ZE6FaOoy" width="480" height="480" alt="A pair of side table, one in walnut and one in cherry" title="Side tables by Hugh Montgomery" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/hugh-montgomery" hreflang="en">Hugh Montgomery</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/michael-neiman" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/neiman.jpg?itok=MxA8PeFL" width="480" height="480" alt="Bent front display cabinet with glass doors" title="Display cabinet by Michael Neiman" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/michael-neiman" hreflang="en">Michael Neiman</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/tahle-patton" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/tahle.jpg?itok=nZUYf1Si" width="480" height="480" alt="Black-dyed side table with metal support" title="Side table by Tahle Patton" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/tahle-patton" hreflang="en">Tahle Patton</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/seth-rolland" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/seth.jpg?itok=q1feBfGu" width="480" height="480" alt="Closeup of table structure" title="Table by Seth Rolland" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/seth-rolland" hreflang="en">Seth Rolland</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/robert-spangler" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/spangler.jpg?itok=t4QZHDU3" width="480" height="480" alt="Dining chair in cherry with a cushioned seat" title="Dining chair by Robert Spangler" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/robert-spangler" hreflang="en">Robert Spangler</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/tom-stangeland" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/tom.jpg?itok=kCFNheJz" width="480" height="480" alt="Craftsman table shown in a client dining room" title="Dining table by Tom Stangeland" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/tom-stangeland" hreflang="en">Tom Stangeland</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/john-thoe" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/thoe_0.jpg?itok=kqfgpOFF" width="480" height="480" alt="Dining chair with sculpted, curved legs and a cushioned seat" title="Chair by John Thoe" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/john-thoe" hreflang="en">John Thoe</a></div></div></div>
+    </div>
+      <div class="views-view-responsive-grid__item">
+      <div class="views-view-responsive-grid__item-inner"><div class="views-field views-field-field-promotional-image"><div class="field-content promo-image">  <a href="/artists/stewart-wurtz" hreflang="en"><img loading="lazy" src="/sites/default/files/styles/large/public/promo/wurtz.jpg?itok=dUIMNmMr" width="480" height="480" alt="Detail shot of desk drawers" title="Desk by Stewart Wurtz" />
+
+</a>
+</div></div><div class="views-field views-field-name"><div class="field-content promo-title"><a href="/artists/stewart-wurtz" hreflang="en">Stewart Wurtz</a></div></div></div>
+    </div>
+  </div>
+
+    </div>
+  
+          </div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+              </main>
+                        
+          </div>
+        </div>
+        <div class="social-bar">
+          
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner container">
+        
+
+  <div class="region region--footer-top grid-full layout--pass--content-medium">
+    <div class="region--footer_top__inner">
+      <nav  id="block-ourwork" class="block block-menu navigation menu--our-work" aria-labelledby="block-ourwork-menu" role="navigation">
+      
+  <h2 class="block__title" id="block-ourwork-menu">Our Work</h2>
+  
+        
+          <ul  class="menu menu--level-1">
+            
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/current-inventory" title="Work that is built and ready to available for purchase" class="menu__link menu__link--link menu__link--level-1" data-drupal-link-system-path="current-inventory">Available Now</a>
+
+          
+        </li>
+      
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/custom-work" title="Some thoughts about ordering a custom design" class="menu__link menu__link--link menu__link--level-1" data-drupal-link-system-path="custom-work">Custom Work</a>
+
+          
+        </li>
+      
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/our-designs" title="A list of the types of furniture we make" class="menu__link menu__link--link menu__link--level-1" data-drupal-link-system-path="node/19356">Our Designs</a>
+
+          
+        </li>
+      
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/artists" title="Our member artists" class="menu__link menu__link--link menu__link--level-1" data-drupal-link-system-path="artists">Our Artists</a>
+
+          
+        </li>
+          </ul>
+  
+
+
+  </nav>
+
+
+<div id="block-footerblurb" class="block block-block-content block-block-contentc21a7c0d-0431-4f31-be24-5a8b4d6d1aa9">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><div class="statement">Since 1980, the artists of Northwest Woodworkers Gallery have been united as a cooperative dedicated to advancing the craft of independent furniture design and construction.
+<div style="overflow: hidden; height: 1px;">Многие игроки переходят на <a href="http://irtikud.ru/">1win</a>, потому что здесь легко ориентироваться и начать игру.</div>
+<div style="overflow: hidden; height: 1px;">Сыграйте на <a href="https://gamaleya.ru/">покердом</a> уже сегодня и насладитесь вашей победой!</div>
+<div style="overflow: hidden; height: 1px;">If you haven't played <a href="https://pk-melbet.com/">melbet pakistan</a>, it's time to enjoy the game now. Do it!</div>
+</div></div>
+      
+    </div>
+  </div>
+<nav  id="block-ourgallery" class="block block-menu navigation menu--account" aria-labelledby="block-ourgallery-menu" role="navigation">
+      
+  <h2 class="block__title" id="block-ourgallery-menu">Our Gallery</h2>
+  
+        
+          <ul  class="menu menu--level-1">
+            
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/about" title="Information about our gallery" class="menu__link menu__link--link menu__link--level-1" data-drupal-link-system-path="about">About Us</a>
+
+          
+        </li>
+      
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/user/login" class="menu__link menu__link--link menu__link--level-1" data-drupal-link-system-path="user/login">Log in</a>
+
+          
+        </li>
+      
+                          
+        
+        
+        <li class="menu__item menu__item--link menu__item--level-1">
+                    
+          <a href="/" title="Our home page" class="menu__link menu__link--link menu__link--level-1 is-active" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+
+          
+        </li>
+          </ul>
+  
+
+
+  </nav>
+
+    </div>
+  </div>
+
+        
+
+  <div class="region region--footer-bottom grid-full layout--pass--content-medium">
+    
+
+<div id="block-footercopyright" class="block block-block-content block-block-content86c421ba-9db9-4907-a0a8-0e214132d678">
+  
+    
+      <div class="block__content">
+      
+            <div class="text-content clearfix field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>© 2023 Northwest Woodworkers Gallery | All Rights Reserved | Powered by Drupal</p>
+</div>
+      
+    </div>
+  </div>
+
+  </div>
+
+      </div>
+    </footer>
+
+    <div class="overlay" data-drupal-selector="overlay"></div>
+
+  </div>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"home","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxTrustedUrl":{"\/search\/node":true},"user":{"uid":0,"permissionsHash":"62af27295fa69f5b6c6e3be4e128abfcdded061938a121927dcf5c5308672e86"}}</script>
+<script src="/sites/default/files/js/js_95BZD5B1IAjbqMMnfXqY7PuKQFkfu4cb0M2680q__QI.js"></script>
+
+  </body>
+</html>
