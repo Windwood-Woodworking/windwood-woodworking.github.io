@@ -1,5 +1,11 @@
 /* Midnight Theme – Localized Version */
 
+/* Center content on the homepage */
+.homepage {
+  text-align: center;
+}
+
+
 /* Base Reset */
 body {
   margin: 0;
