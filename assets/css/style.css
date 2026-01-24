@@ -14,6 +14,24 @@ label[for="nav-trigger"] {
   display: none !important;
 }
 
+.site-nav a {
+  border: 2px solid #666;      /* matches the middle line of your divider */
+  outline: 1px solid #222;     /* subtle outer edge */
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 0 6px;
+  background: #444;            /* same tone as your back-to-top button */
+  color: #eee;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.site-nav a:hover {
+  background: #555;            /* gentle highlight */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
 .site-nav .menu-icon,
 .site-nav .trigger,
 .menu-icon,
