@@ -21,6 +21,27 @@ label[for="nav-trigger"] {
   display: none !important;
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: #b86a4c; /* warm wood tone */
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+#back-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
 
 
 /* Base Reset */
