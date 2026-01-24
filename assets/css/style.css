@@ -25,7 +25,7 @@ label[for="nav-trigger"] {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background: #b86a4c; /* warm wood tone */
+  background: #444; /* warm wood tone */
   color: #fff;
   padding: 10px 14px;
   border-radius: 8px;
