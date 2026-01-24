@@ -4,6 +4,9 @@
 .homepage {
   text-align: center;
 }
+label[for="nav-trigger"] {
+  display: none !important;
+}
 
 .site-nav .menu-icon,
 .site-nav .trigger,
