@@ -13,6 +13,20 @@
     {% include head.html %}
   </head>
 
+  <a href="#" id="back-to-top">Top</a>
+
+<script>
+  document.addEventListener('scroll', function () {
+    const btn = document.getElementById('back-to-top');
+    if (window.scrollY > 300) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  });
+</script>
+
+  
   <body>
 
     {% include header.html %}
