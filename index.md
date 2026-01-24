@@ -9,6 +9,8 @@ title: Home
   <img src="images/ww-cnc-carving-060.jpg" width="600" alt="CNC Carving">
 </p>
 
+</div>
+
 # Windwood Woodworking
 
 Welcome to my workshop.  
@@ -60,5 +62,3 @@ My job is to listen, shape, and reveal what’s already there.
 ## 📬 Contact
 
 More coming soon.
-
-</div>
