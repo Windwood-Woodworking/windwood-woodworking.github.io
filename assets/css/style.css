@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.menu-icon {
+  display: none !important;
+}
+
+
 
 /* Base Reset */
 body {
