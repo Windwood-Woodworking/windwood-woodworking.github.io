@@ -4,6 +4,12 @@
 .homepage {
   text-align: center;
 }
+
+#nav-trigger,
+label[for="nav-trigger"] {
+  display: none !important;
+}
+
 label[for="nav-trigger"] {
   display: none !important;
 }
