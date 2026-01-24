@@ -5,12 +5,10 @@
   text-align: center;
 }
 
-.navicon {
-  display: none !important;
-}
-
-
-.menu-icon {
+.site-nav .menu-icon,
+.site-nav .trigger,
+.menu-icon,
+.trigger {
   display: none !important;
 }
 
