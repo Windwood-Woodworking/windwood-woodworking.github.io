@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Home
-class: homepage
 ---
+
+<div class="home-center">
 
 <p align="center">
   <img src="images/ww-cnc-carving-060.jpg" width="600" alt="CNC Carving">
@@ -59,3 +60,5 @@ My job is to listen, shape, and reveal what’s already there.
 ## 📬 Contact
 
 More coming soon.
+
+</div>
