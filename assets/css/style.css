@@ -72,6 +72,11 @@
     padding: 4px;
   }
 
+  .hamburger:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
    .hamburger:focus,
 .hamburger:active {
   outline: none;
