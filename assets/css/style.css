@@ -96,7 +96,7 @@ label[for="nav-trigger"],
     content: "›";
     position: absolute;
     right: 12px;
-    top: 150%;
+    top: 120%;
     transform: translateY(-50%);      /* adds arrow */
     color: #777;
     font-size: 1.4rem;
