@@ -15,16 +15,17 @@
       ">
         {{ site.title }}
       </a>
-    
-       <div style="
+
+      <div style="
         height: 2px;
         width: 60%;
         margin: 0.3rem auto 0;
         background: linear-gradient(to right, transparent, #444, transparent);
         border-radius: 2px;">
       </div>
+    </div>
 
-    <!-- ⭐ DESKTOP NAV GOES HERE -->
+    <!-- ⭐ DESKTOP NAV (correct position) -->
     <nav class="site-nav">
       <ul>
         <li><a href="/index.html">Home</a></li>
@@ -38,17 +39,15 @@
         <li><a href="/contact-me.html">Contact-Me</a></li>
       </ul>
     </nav>
-      
-  </div>
 
-    <!-- ⭐ MOBILE HAMBURGER -->
+    <!-- ⭐ MOBILE HAMBURGER (inside wrap now) -->
     <button class="hamburger" aria-label="Menu">
       <span></span>
       <span></span>
       <span></span>
     </button>
 
-    <!-- ⭐ MOBILE NAV -->
+    <!-- ⭐ MOBILE NAV (inside wrap now) -->
     <nav class="mobile-nav">
       <a href="/index.html">Home</a>
       <a href="/about-me.html">About-Me</a>
@@ -61,7 +60,7 @@
       <a href="/contact-me.html">Contact-Me</a>
     </nav>
 
-  </div>
+  </div> <!-- END .wrap -->
 
   <script>
     const burger = document.querySelector('.hamburger');
@@ -72,4 +71,3 @@
     });
   </script>
 </header>
-
