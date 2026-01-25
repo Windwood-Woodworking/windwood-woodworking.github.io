@@ -14,13 +14,22 @@ label[for="nav-trigger"] {
   display: none !important;
 }
 
+.site-nav {
+  display: flex;
+  gap: 3px;   /* adjust this number to taste */
+}
+
+.site-nav a {
+  margin: 0;  /* let gap handle spacing */
+}
+
 .site-nav a {
   white-space: nowrap;
   border: 1.5px solid #666;      /* matches the middle line of your divider */
   outline: 0.5px solid #333;     /* subtle outer edge */
   padding: 6px 12px;
   border-radius: 0px;
-  margin: 0 2px;
+  margin: 0 0px;
   background: #000;            /* same tone as your back-to-top button */
   color: #eee;
   text-decoration: none;
