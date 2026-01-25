@@ -32,17 +32,18 @@
 }
 
 .site-nav a {
-  color: #ddd;
+  color: #c49a6c;
   font-weight: 500;
   white-space: nowrap;
   text-decoration: none;
-  padding: 6px 10px;
+  padding: 4px 6px;
   transition: color 0.2s ease;
 }
 
 .site-nav a:hover {
-  color: #fff;
+  color: #e6c79a;
 }
+
 
 /* Hide mobile nav on desktop by default */
 .mobile-nav {
