@@ -34,5 +34,18 @@
 
    
   </div>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const toggle = document.querySelector(".mobile-menu-toggle");
+    const nav = document.querySelector(".site-nav");
+
+    if (toggle && nav) {
+      toggle.addEventListener("click", function() {
+        nav.classList.toggle("open");
+      });
+    }
+  });
+</script>
+
 </header>
 
