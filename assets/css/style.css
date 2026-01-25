@@ -9,14 +9,6 @@
    NAVIGATION — CLEAN HORIZONTAL VERSION
 ----------------------------------------- */
 
-/* Disable Midnight theme's default nav */
-.site-header .trigger,
-.site-header .menu-icon,
-.site-header label[for="nav-trigger"],
-#nav-trigger {
-  display: none !important;
-}
-
 .site-nav {
   background: #111;
   padding: 12px 0;
@@ -60,41 +52,6 @@ label[for="nav-trigger"],
 .trigger {
   display: none !important;
 }
-@media (max-width: 768px) {
-
-  /* Hide nav by default on mobile */
-  .site-nav ul {
-    display: none;
-    flex-direction: column;
-    padding: 12px 0;
-    background: #111;
-  }
-
-  /* Show when open */
-  .site-nav.open ul {
-    display: flex;
-  }
-
-  /* Show the Menu button */
-  .mobile-menu-toggle {
-    display: block;
-    width: 100%;
-    background: #111;
-    color: #c8a878;
-    border: 1px solid #444;
-    padding: 10px 14px;
-    font-size: 1rem;
-    border-radius: 4px;
-    text-align: left;
-  }
-}
-
-/* Hide Menu button on desktop */
-@media (min-width: 769px) {
-  .mobile-menu-toggle {
-    display: none;
-  }
-}
 
 @media (max-width: 768px) {
 
@@ -134,6 +91,19 @@ label[for="nav-trigger"],
   }
 }
 
+@media (max-width: 768px) {
+  .site-nav::after {
+    content: "more>>";
+    position: absolute;
+    right: 12px;
+    top: 80%;
+    transform: translateY(-50%);      /* adds arrow */
+    color: #993333
+    font-size: 1.0rem;
+    pointer-events: none;
+  }
+}
+
 
   /* Ensure nav items lay out horizontally and wrap if needed */
   .site-nav ul {
@@ -143,6 +113,11 @@ label[for="nav-trigger"],
     gap: 8px;
   }
 
+  /* Remove any leftover vertical-nav spacing */
+  .page-content {
+    margin-left: 0 !important;
+  }
+}
 
 /* ----------------------------------------
    BACK TO TOP BUTTON
@@ -270,42 +245,4 @@ button, .btn {
 
 button:hover, .btn:hover {
   background: #6bb6ff;
-}
-
-/* Mobile Menu Button (hidden on desktop) */
-.mobile-menu-toggle {
-  display: none;
-  background: #111;
-  color: #c8a878; /* warm wood tone */
-  border: 1px solid #444;
-  padding: 10px 14px;
-  font-size: 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
-
-  /* Hide the horizontal nav on mobile */
-  .site-nav ul {
-    display: none;
-    flex-direction: column;
-    gap: 12px;
-    background: #111;
-    padding: 12px 0;
-    border-bottom: 1px solid #333;
-  }
-
-  /* Show the Menu button */
-  .mobile-menu-toggle {
-    display: block;
-  }
-
-  /* When menu is open */
-  .site-nav.open ul {
-    display: flex;
-  }
 }
