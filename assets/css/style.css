@@ -71,6 +71,23 @@ label[for="nav-trigger"],
     border-bottom: 1px solid #333;
   }
 
+  @media (max-width: 768px) {
+  .site-nav {
+    position: relative;
+  }
+
+  .site-nav::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;              /* adjust to taste */
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(to right, transparent, #111);
+  }
+}
+
 
  @media (max-width: 768px) {
   .site-nav ul {
