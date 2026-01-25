@@ -43,6 +43,11 @@
   color: #fff;
 }
 
+/* Hide mobile nav on desktop by default */
+.mobile-nav {
+  display: none;
+}
+
 .hamburger {
   display: none;
 }
