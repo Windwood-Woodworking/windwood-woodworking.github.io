@@ -71,11 +71,6 @@ label[for="nav-trigger"],
     border-bottom: 1px solid #333;
   }
 
-  @media (max-width: 768px) {
-  .site-nav {
-    position: relative;
-  }
-
 
  @media (max-width: 768px) {
   .site-nav ul {
@@ -91,18 +86,6 @@ label[for="nav-trigger"],
   }
 }
 
-@media (max-width: 768px) {
-  .site-nav::after {
-    content: "more>>";
-    position: absolute;
-    right: 12px;
-    top: 80%;
-    transform: translateY(-50%);      /* adds arrow */
-    color: #993333
-    font-size: 1.0rem;
-    pointer-events: none;
-  }
-}
 
 
   /* Ensure nav items lay out horizontally and wrap if needed */
