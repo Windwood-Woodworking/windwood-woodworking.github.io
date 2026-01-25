@@ -93,13 +93,13 @@ label[for="nav-trigger"],
 
 @media (max-width: 768px) {
   .site-nav::after {
-    content: "more>>›";
+    content: "more>>";
     position: absolute;
     right: 12px;
-    top: 120%;
+    top: 110%;
     transform: translateY(-50%);      /* adds arrow */
     color: #777;
-    font-size: 1.4rem;
+    font-size: 1.0rem;
     pointer-events: none;
   }
 }
