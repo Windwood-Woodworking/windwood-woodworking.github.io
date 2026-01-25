@@ -5,6 +5,18 @@
   text-align: center;
 }
 
+.site-nav ul {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  display: block !important;
+  margin: 0;
+}
+
 #nav-trigger,
 label[for="nav-trigger"] {
   display: none !important;
