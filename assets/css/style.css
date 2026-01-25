@@ -96,9 +96,9 @@ label[for="nav-trigger"],
     content: "more>>";
     position: absolute;
     right: 12px;
-    top: 110%;
+    top: 80%;
     transform: translateY(-50%);      /* adds arrow */
-    color: #777;
+    color: #993333
     font-size: 1.0rem;
     pointer-events: none;
   }
