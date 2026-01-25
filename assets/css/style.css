@@ -71,12 +71,24 @@ label[for="nav-trigger"],
     border-bottom: 1px solid #333;
   }
 
+
+  @media (max-width: 768px) {
+  .site-nav ul {
+    gap: 8px;          /* smaller spacing */
+  }
+
+  .site-nav a {
+    padding: 4px 8px;  /* smaller buttons */
+    font-size: 0.9rem; /* slightly smaller text */
+  }
+}
+
   /* Ensure nav items lay out horizontally and wrap if needed */
   .site-nav ul {
     flex-direction: row !important;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
+    gap: 8px;
   }
 
   /* Remove any leftover vertical-nav spacing */
