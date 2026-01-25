@@ -21,7 +21,7 @@ label[for="nav-trigger"] {
   padding: 6px 12px;
   border-radius: 0px;
   margin: 0 6px;
-  background: #444;            /* same tone as your back-to-top button */
+  background: #000;            /* same tone as your back-to-top button */
   color: #eee;
   text-decoration: none;
   font-weight: 600;
