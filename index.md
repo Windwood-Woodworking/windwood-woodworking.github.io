@@ -4,12 +4,64 @@ title: Home
 ---
 
 <div class="home-center">
+</div>
 
-<p align="center">
-  <img src="images/ww-cnc-carving-060.jpg" width="600" alt="CNC Carving">
-</p>
+<div style="max-width: 600px; margin: 2rem auto; text-align: center;">
+  <img 
+    src="/images/ww-logo-clean2-201.jpg" 
+    alt="logo" 
+    style="
+      width: 100%;
+      height: auto;
+      border: 4px solid #444;
+      border-radius: 12px;
+      background: #222;
+      padding: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    "
+  >
+  <p style="
+      margin-top: 0.75rem; 
+      font-size: 1rem; 
+      color: #e6e6e6; 
+      font-weight: 500;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    ">
+   My woodworking from the 80's and 90's to the present.
+  </p>
+</div>
+
+
+<div style="width: 85%; margin: 3rem auto;">
+
+  <!-- Line 1 (dark fade) -->
+  <div style="
+    height: 4px;
+    background: linear-gradient(to right, transparent, #444, transparent);
+    border-radius: 2px;
+  "></div>
+
+  <!-- Line 2 (lighter fade, spaced) -->
+  <div style="
+    height: 2px;
+    background: linear-gradient(to right, transparent, #666, transparent);
+    margin-top: 2px;
+    border-radius: 2px;
+  "></div>
+
+  <!-- Line 3 (dark fade, spaced) -->
+  <div style="
+    height: 4px;
+    background: linear-gradient(to right, transparent, #444, transparent);
+    margin-top: 2px;
+    border-radius: 2px;
+  "></div>
 
 </div>
+
+
+
+
 
 # Windwood Woodworking
 
