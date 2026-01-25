@@ -93,7 +93,7 @@ label[for="nav-trigger"],
 
 @media (max-width: 768px) {
   .site-nav::after {
-    content: "›";
+    content: "more>>›";
     position: absolute;
     right: 12px;
     top: 120%;
