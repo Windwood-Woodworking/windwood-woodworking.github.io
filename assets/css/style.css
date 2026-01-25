@@ -247,3 +247,40 @@ button:hover, .btn:hover {
   background: #6bb6ff;
 }
 
+/* Mobile Menu Button (hidden on desktop) */
+.mobile-menu-toggle {
+  display: none;
+  background: #111;
+  color: #c8a878; /* warm wood tone */
+  border: 1px solid #444;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+
+  /* Hide the horizontal nav on mobile */
+  .site-nav ul {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    background: #111;
+    padding: 12px 0;
+    border-bottom: 1px solid #333;
+  }
+
+  /* Show the Menu button */
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  /* When menu is open */
+  .site-nav.open ul {
+    display: flex;
+  }
+}
