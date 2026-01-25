@@ -15,10 +15,11 @@ label[for="nav-trigger"] {
 }
 
 .site-nav a {
-  border: 2px solid #666;      /* matches the middle line of your divider */
-  outline: 1px solid #222;     /* subtle outer edge */
+  white-space: nowrap;
+  border: 1.5px solid #666;      /* matches the middle line of your divider */
+  outline: 0.5px solid #333;     /* subtle outer edge */
   padding: 6px 12px;
-  border-radius: 8px;
+  border-radius: 0px;
   margin: 0 6px;
   background: #444;            /* same tone as your back-to-top button */
   color: #eee;
