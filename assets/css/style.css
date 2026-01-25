@@ -120,7 +120,7 @@
   bottom: 30px;
   right: 30px;
   background: #444;
-  color: #fff;
+  color: #c49a6c;
   padding: 10px 14px;
   border-radius: 8px;
   font-size: 0.9rem;
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #4ea3ff;
+  color: #c49a6c;
   text-decoration: none;
 }
 
