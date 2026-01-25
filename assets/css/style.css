@@ -60,6 +60,41 @@ label[for="nav-trigger"],
 .trigger {
   display: none !important;
 }
+@media (max-width: 768px) {
+
+  /* Hide nav by default on mobile */
+  .site-nav ul {
+    display: none;
+    flex-direction: column;
+    padding: 12px 0;
+    background: #111;
+  }
+
+  /* Show when open */
+  .site-nav.open ul {
+    display: flex;
+  }
+
+  /* Show the Menu button */
+  .mobile-menu-toggle {
+    display: block;
+    width: 100%;
+    background: #111;
+    color: #c8a878;
+    border: 1px solid #444;
+    padding: 10px 14px;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-align: left;
+  }
+}
+
+/* Hide Menu button on desktop */
+@media (min-width: 769px) {
+  .mobile-menu-toggle {
+    display: none;
+  }
+}
 
 @media (max-width: 768px) {
 
