@@ -72,16 +72,19 @@ label[for="nav-trigger"],
   }
 
 
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .site-nav ul {
-    gap: 8px;          /* smaller spacing */
+    flex-wrap: nowrap !important;   /* prevents wrapping */
+    overflow-x: auto;               /* enables horizontal scroll */
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
   }
 
-  .site-nav a {
-    padding: 4px 8px;  /* smaller buttons */
-    font-size: 0.9rem; /* slightly smaller text */
+  .site-nav li {
+    flex: 0 0 auto;                 /* prevents items from shrinking */
   }
 }
+
 
   /* Ensure nav items lay out horizontally and wrap if needed */
   .site-nav ul {
