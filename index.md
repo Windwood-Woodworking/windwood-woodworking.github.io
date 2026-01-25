@@ -6,23 +6,23 @@ title: Home
 <div class="home-center">
 </div>
 
-<div style="max-width: 600px; margin: 2rem auto; text-align: center;">
+<div style="max-width: 700px; margin: 2rem auto; text-align: center;">
   <img 
     src="/images/ww-logo-clean2-201.jpg" 
     alt="logo" 
     style="
       width: 100%;
       height: auto;
-      border: 4px solid #444;
-      border-radius: 12px;
+      border: 0px solid #444;
+      border-radius: 0px;
       background: #222;
-      padding: 6px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+      padding: 0px;
+      box-shadow: 0 0px 0px rgba(0,0,0,0.6);
     "
   >
   <p style="
       margin-top: 0.75rem; 
-      font-size: 1rem; 
+      font-size: 1.5rem; 
       color: #e6e6e6; 
       font-weight: 500;
       text-shadow: 0 1px 2px rgba(0,0,0,0.8);
