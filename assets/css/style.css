@@ -12,6 +12,38 @@
   margin: 0;
 }
 
+/* Desktop vertical nav */
+.site-nav {
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  z-index: 1000;
+}
+
+/* Force vertical layout */
+.site-nav ul {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Mobile override */
+@media (max-width: 768px) {
+  .site-nav {
+    position: static;          /* put it back in the normal flow */
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .site-nav ul {
+    flex-direction: row !important;  /* horizontal again */
+    justify-content: center;
+    gap: 6px;
+  }
+}
+
 .site-nav li {
   display: block !important;
   margin: 0;
