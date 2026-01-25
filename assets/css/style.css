@@ -120,7 +120,7 @@
 #back-to-top {
   position: fixed;
   top: 45%;
-  right: 50px;
+  right: 20px;
   transform: translateY(-45%);
   background: #c49a6c;
   color: #000;
