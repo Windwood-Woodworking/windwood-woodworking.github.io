@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+/* apply mobile menu color to site title */
+.site-header a.site-title,
+.site-header .site-title {
+  color: #c49a6c;
+}
+
 /* ----------------------------------------
    NAVIGATION — CLEAN HORIZONTAL VERSION
 ----------------------------------------- */
