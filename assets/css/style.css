@@ -81,7 +81,7 @@ label[for="nav-trigger"],
     position: absolute;
     top: 0;
     right: 0;
-    width: 40px;              /* adjust to taste */
+    width: 40px;              /* adjust shade to taste.  right edge fade */
     height: 100%;
     pointer-events: none;
     background: linear-gradient(to right, transparent, #111);
@@ -103,6 +103,18 @@ label[for="nav-trigger"],
   }
 }
 
+@media (max-width: 768px) {
+  .site-nav::after {
+    content: "›";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+    font-size: 1.4rem;
+    pointer-events: none;
+  }
+}
 
 
   /* Ensure nav items lay out horizontally and wrap if needed */
