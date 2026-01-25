@@ -9,6 +9,14 @@
    NAVIGATION — CLEAN HORIZONTAL VERSION
 ----------------------------------------- */
 
+/* Disable Midnight theme's default nav */
+.site-header .trigger,
+.site-header .menu-icon,
+.site-header label[for="nav-trigger"],
+#nav-trigger {
+  display: none !important;
+}
+
 .site-nav {
   background: #111;
   padding: 12px 0;
