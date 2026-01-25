@@ -18,6 +18,11 @@
   justify-content: center;
 }
 
+.site-nav a:focus {
+  outline: none;
+  color: #e6c79a; /* optional: warm hover color */
+}
+
 .site-nav ul {
   list-style: none;
   margin: 0;
@@ -79,6 +84,11 @@
   nav.site-nav {
     display: none;
   }
+
+  .mobile-nav a:focus {
+  outline: none;
+  color: #e6c79a;
+}
 
   /* Push hamburger to the right edge */
 .hamburger {
