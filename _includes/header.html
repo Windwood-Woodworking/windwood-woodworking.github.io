@@ -1,51 +1,65 @@
 <header class="site-header">
   <div class="wrap">
-    
-   <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;">
 
-  <!-- Site Title -->
-  <a href="{{ '/' | relative_url }}" style="
-    color: #993333; /* warmer, redder wood tone */
-    text-decoration: none;
-    font-size: 3rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.7);
-    display: inline-block;
-    padding-bottom: 0.4rem;
-  ">
-    {{ site.title }}
-  </a>
+    <!-- Centered Title Block -->
+    <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;">
 
-  <!-- Fade-out underline -->
-  <div style="
-    height: 2px;
-    width: 60%;
-    margin: 0.3rem auto 0;
-    background: linear-gradient(to right, transparent, #444, transparent);
-    border-radius: 2px;
-  "></div>
+      <a href="{{ '/' | relative_url }}" style="
+        color: #993333;
+        text-decoration: none;
+        font-size: 3rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+        display: inline-block;
+        padding-bottom: 0.4rem;
+      ">
+        {{ site.title }}
+      </a>
 
-</div>
+      <div style="
+        height: 2px;
+        width: 60%;
+        margin: 0.3rem auto 0;
+        background: linear-gradient(to right, transparent, #444, transparent);
+        border-radius: 2px;
+      "></div>
 
-    
-    <nav class="site-nav"><button class="mobile-menu-toggle">Menu ▾</button>
-</nav>
+    </div>
 
-   
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-toggle">Menu ▾</button>
+
+    <!-- Actual Navigation -->
+    <nav class="site-nav">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about-me.html">About</a></li>
+        <li><a href="/relief-carvings.html">Relief Carvings</a></li>
+        <li><a href="/mirror-frames.html">Mirroe Frames</a></li>
+        <li><a href="/furniture.html">Furniture</a></li>
+        <li><a href="/wall-art.html">Wall Art</a></li>
+        <li><a href="/boxes.html">Boxes</a></li>
+        <li><a href="/fireplace-mantels.html">Mantels</a></li>        
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
   </div>
-  <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const toggle = document.querySelector(".mobile-menu-toggle");
-    const nav = document.querySelector(".site-nav");
 
-    if (toggle && nav) {
-      toggle.addEventListener("click", function() {
-        nav.classList.toggle("open");
-      });
-    }
-  });
-</script>
+  <!-- Mobile Menu Script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const toggle = document.querySelector(".mobile-menu-toggle");
+      const nav = document.querySelector(".site-nav");
+
+      if (toggle && nav) {
+        toggle.addEventListener("click", function() {
+          nav.classList.toggle("open");
+        });
+      }
+    });
+  </script>
 
 </header>
 
