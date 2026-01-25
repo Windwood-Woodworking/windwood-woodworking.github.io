@@ -15,6 +15,16 @@ label[for="nav-trigger"] {
 }
 
 .site-nav {
+  position: fixed;        /* keeps it in place while scrolling */
+  top: 80px;              /* adjust to sit below your header */
+  left: 20px;             /* distance from the left edge */
+  display: flex;
+  flex-direction: column; /* vertical stack */
+  gap: 8px;               /* spacing between buttons */
+  z-index: 1000;          /* keeps it above content */
+}
+
+.site-nav {
   display: flex;
   gap: 1px;   /* adjust this number to taste */
 }
@@ -30,11 +40,12 @@ label[for="nav-trigger"] {
   white-space: nowrap;
   border: 0px solid #666;      /* matches the middle line of your divider */
   outline: 0px solid #333;     /* subtle outer edge */
-  padding: 3px 5px;
+  padding: 6px 10px;
   border-radius: 0px;
   background: #222;            /* same tone as your back-to-top button */
   color: #eee;
   text-decoration: none;
+  text-align: left;
   font-weight: 600;
   transition: background 0.2s ease, box-shadow 0.2s ease;
 }
@@ -118,7 +129,7 @@ a:hover {
 /* Navigation Bar */
 .site-nav {
   background: #111;
-  padding: 6px 0;
+  padding: 12px 0;
   border-bottom: 1px solid #333;
 }
 
@@ -139,6 +150,11 @@ a:hover {
 .site-nav a:hover {
   color: #fff;
 }
+
+.page-content {
+  margin-left: 140px;   /* adjust based on how wide your nav is */
+}
+
 
 /* Footer */
 footer {
