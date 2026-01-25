@@ -13,9 +13,10 @@
     {% include head.html %}
   </head>
 
-  <a href="#" id="back-to-top">Top</a>
-
-<script>
+ 
+ 
+  <body>
+    <script>
   document.addEventListener('scroll', function () {
     const btn = document.getElementById('back-to-top');
     if (window.scrollY > 300) {
@@ -26,26 +27,11 @@
   });
 </script>
 
-  
-  <body>
-
     {% include header.html %}
 
-    <!-- Navigation Bar -->
-    <nav class="site-nav">
-      <ul>
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/about-me.html">About-Me</a></li>
-        <li><a href="/wall-art.html">Wall Art</a></li>
-        <li><a href="/mirror-frames.html">Mirror Frames</a></li>
-        <li><a href="/relief-carvings.html">Relief Carvings</a></li>
-        <li><a href="/furniture.html">Furniture</a></li>
-        <li><a href="/fireplace-mantels.html">Fireplace Mantels</a></li>
-        <li><a href="/boxes.html">Boxes</a></li>        
-        <li><a href="/contact-me.html">Contact-Me</a></li>
-      </ul>
-    </nav>
+     <a href="#" id="back-to-top">Top</a>
 
+   
     <div class="container content">
       {{ content }}
     </div>
