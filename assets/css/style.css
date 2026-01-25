@@ -72,6 +72,12 @@
     padding: 10px;
   }
 
+   .hamburger:focus,
+.hamburger:active {
+  outline: none;
+  box-shadow: none;
+}
+
   /* Burger lines match your nav text color */
   .hamburger span {
     width: 26px;
