@@ -54,17 +54,34 @@ label[for="nav-trigger"],
 }
 
 @media (max-width: 768px) {
-  .site-nav {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-}
 
-@media (max-width: 768px) {
+  /* Release header from fixed behavior */
   header {
     position: relative !important;
+  }
+
+  /* Make nav behave like a normal block again */
+  .site-nav {
+    position: relative !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    padding: 12px 0;
+    background: #111;
+    border-bottom: 1px solid #333;
+  }
+
+  /* Ensure nav items lay out horizontally and wrap if needed */
+  .site-nav ul {
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  /* Remove any leftover vertical-nav spacing */
+  .page-content {
+    margin-left: 0 !important;
   }
 }
 
