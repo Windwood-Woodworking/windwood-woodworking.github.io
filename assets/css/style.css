@@ -74,16 +74,18 @@ label[for="nav-trigger"],
 
  @media (max-width: 768px) {
   .site-nav ul {
-    flex-wrap: nowrap !important;   /* prevents wrapping */
-    overflow-x: auto;               /* enables horizontal scroll */
+    justify-content: flex-start !important;  /* start at the left */
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     width: 100%;
   }
 
   .site-nav li {
-    flex: 0 0 auto;                 /* prevents items from shrinking */
+    flex: 0 0 auto;
   }
 }
+
 
 
   /* Ensure nav items lay out horizontally and wrap if needed */
