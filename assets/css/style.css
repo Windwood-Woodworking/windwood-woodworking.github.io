@@ -96,7 +96,7 @@ label[for="nav-trigger"],
     content: "more>>";
     position: absolute;
     right: 12px;
-    top: 100%;
+    top: 115%;
     transform: translateY(-50%);      /* adds arrow */
     color: #993333;
     font-size: 1.0rem;
