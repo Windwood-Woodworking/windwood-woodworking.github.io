@@ -91,19 +91,6 @@ label[for="nav-trigger"],
   }
 }
 
-@media (max-width: 768px) {
-  .site-nav::after {
-    content: "more>>";
-    position: absolute;
-    right: 12px;
-    top: 115%;
-    transform: translateY(-50%);      /* adds arrow */
-    color: #993333;
-    font-size: 1.0rem;
-    pointer-events: none;
-  }
-}
-
 
   /* Ensure nav items lay out horizontally and wrap if needed */
   .site-nav ul {
@@ -113,11 +100,6 @@ label[for="nav-trigger"],
     gap: 8px;
   }
 
-  /* Remove any leftover vertical-nav spacing */
-  .page-content {
-    margin-left: 0 !important;
-  }
-}
 
 /* ----------------------------------------
    BACK TO TOP BUTTON
