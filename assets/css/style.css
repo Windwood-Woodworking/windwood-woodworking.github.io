@@ -80,7 +80,7 @@
 
   /* Burger lines match your nav text color */
   .hamburger span {
-    width: 26px;
+    width: 22px;
     height: 3px;
     background: #c49a6c; /* your nav text color */
     border-radius: 2px;
@@ -105,7 +105,7 @@
   .mobile-nav {
     position: fixed;
     top: 40px; /* adjust to your header height */
-    right: 20px;
+    right: 40px;
     background: #000; /* midnight theme */
     padding: 20px 25px;
     display: flex;
