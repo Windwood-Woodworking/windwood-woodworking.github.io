@@ -6,7 +6,7 @@ title: Home
 <div class="home-center">
 </div>
 
-<div style="max-width: 700px; margin: 2rem auto; text-align: center;">
+<div style="max-width: 800px; margin: 2rem auto; text-align: center;">
   <img 
     src="/images/ww-logo-clean2-201.jpg" 
     alt="logo" 
