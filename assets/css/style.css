@@ -15,6 +15,14 @@ h1, h2, .title {
   line-height: 1.1;
 }
 
+p {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
 body, p, .caption {
   font-family: 'Crimson Pro', serif;
   font-weight: 400;
