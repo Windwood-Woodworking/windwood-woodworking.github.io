@@ -25,20 +25,7 @@
   img.style.borderRadius = "4px";
   overlay.appendChild(img);
 
-  caption.style.position = "relative";
-
-const capLine = document.createElement("div");
-capLine.style.width = "60px";
-capLine.style.height = "2px";
-capLine.style.background = "#996633";
-capLine.style.opacity = "0.8";
-capLine.style.margin = "20px auto 10px auto";
-capLine.style.borderRadius = "2px";
-
-// Insert the line ABOVE the caption text
-overlay.insertBefore(capLine, caption);
-
-  
+ 
   // Caption element
   const caption = document.createElement("div");
   caption.style.fontFamily = "'Tangerine', cursive";
@@ -50,6 +37,20 @@ overlay.insertBefore(capLine, caption);
   caption.style.lineHeight = "1.1";
   caption.style.letterSpacing = "0.5px";
   overlay.appendChild(caption);
+  
+  // NOW add the divider line
+  caption.style.position = "relative";
+
+  const capLine = document.createElement("div");
+  capLine.style.width = "60px";
+  capLine.style.height = "2px";
+  capLine.style.background = "#996633";
+  capLine.style.opacity = "0.8";
+  capLine.style.margin = "20px auto 10px auto";
+  capLine.style.borderRadius = "2px";
+
+  // Insert the line ABOVE the caption text
+  overlay.insertBefore(capLine, caption);
 
   // Close button
   const closeBtn = document.createElement("div");
