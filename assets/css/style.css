@@ -21,6 +21,14 @@ body, p, .caption {
   line-height: 1.5;
 }
 
+.caption, .image-description, .gallery-caption, p {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
 header .site-title {
   font-family: 'Tangerine', cursive !important;
   font-weight: 700!important;
