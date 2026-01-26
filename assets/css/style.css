@@ -7,13 +7,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
 
-
-
 header .site-title {
   font-family: 'Charm', cursive !important;
   font-weight: 700!important;
   letter-spacing: 0 !important;
-  color: #c49a6c;
+  color: #996633;
   text-decoration: none;
   font-size: 3rem;        /* adjust to match Google preview */
   letter-spacing: 0;      /* scripts look wrong with spacing */
@@ -28,7 +26,7 @@ header .site-title {
   font-family: 'Charm', cursive!important;
   font-size: 2.4rem;      /* tweak to taste */
   letter-spacing: 1px;    /* optional */
-  color: #c49a6c;         /* your warm gold */
+  color: #996633;         /* your warm gold */
 }
 
 
@@ -63,7 +61,7 @@ header .site-title {
 }
 
 .site-nav a {
-  color: #c49a6c;
+  color: #996633;
   font-weight: 500;
   white-space: nowrap;
   text-decoration: none;
@@ -108,7 +106,7 @@ header .site-title {
   .hamburger span {
     width: 22px;
     height: 3px;
-    background: #c49a6c; /* your nav text color */
+    background: #996633; /* your nav text color */
     border-radius: 2px;
   }
 
@@ -151,7 +149,7 @@ header .site-title {
   }
 
   .mobile-nav a {
-    color: #c49a6c;
+    color: #996633;
     text-decoration: none;
     font-size: 1.1rem;
   }
@@ -168,7 +166,7 @@ header .site-title {
   top: 45%;
   right: 20px;
   transform: translateY(-45%);
-  background: #c49a6c;
+  background: #996633;
   color: #000;
   padding: 10px 14px;
   border-radius: 8px;
