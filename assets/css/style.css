@@ -7,8 +7,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
 
-.site-title {
-  font-family: 'Bilbo Swash Caps', cursive;
+
+header .site.title {
+  font-family: 'Bilbo Swash Caps', cursive !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
   color: #c49a6c;
   text-decoration: none;
   font-size: 3rem;        /* adjust to match Google preview */
