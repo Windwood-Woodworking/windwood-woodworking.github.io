@@ -23,7 +23,7 @@
   }
 
   // Initialize each zoomable image
-  document.querySelectorAll('.three-row img.zoomable').forEach(img => {
+  document.querySelectorAll('img').forEach(img => {
     // state
     let scale = 1;
     let translate = { x: 0, y: 0 };
