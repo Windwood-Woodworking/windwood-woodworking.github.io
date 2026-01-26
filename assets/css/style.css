@@ -65,17 +65,12 @@
   .hamburger {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 5px;
     background: none;
     border: none;
     cursor: pointer;
-    padding: 4px;
+    padding: 10px;
   }
-
-  .hamburger:focus-visible {
-  outline: none;
-  box-shadow: none;
-}
 
    .hamburger:focus,
 .hamburger:active {
@@ -85,7 +80,7 @@
 
   /* Burger lines match your nav text color */
   .hamburger span {
-    width: 22px;
+    width: 26px;
     height: 3px;
     background: #c49a6c; /* your nav text color */
     border-radius: 2px;
@@ -96,10 +91,14 @@
     display: none;
   }
 
-   /* Push hamburger to the right edge */
+  .mobile-nav a:focus {
+  outline: none;
+  color: #e6c79a;
+}
+
+  /* Push hamburger to the right edge */
 .hamburger {
   margin-left: auto;
-  margin-right: 15px; /* adjust to taste */
 }
 
   /* Floating fade-in panel */
@@ -112,8 +111,8 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
-    border-radius: 12px;
-    opacity: 90;
+    border-radius: 6px;
+    opacity: 0;
     pointer-events: none;
     transform: translateY(-10px);
     transition: opacity 0.25s ease, transform 0.25s ease;
