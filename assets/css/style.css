@@ -338,6 +338,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
   font-weight: 600;
 }
+.box p {
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;          /* Tangerine looks best LARGE */
+  color: #996633;           /* your site’s gold tone */
+  text-align: center;
+  margin-top: 8px;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
 
 
 a:hover {
