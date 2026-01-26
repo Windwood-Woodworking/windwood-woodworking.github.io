@@ -156,47 +156,6 @@ header .site-title {
 
 }
 
-/* -----------------------------------------
-   UNIVERSAL IMAGE CARD
-   For gallery items, boxes, bowls, etc.
------------------------------------------ */
-
-.image-card {
-    max-width: 600px;
-    margin: 2rem auto;
-    text-align: center;
-
-    /* Border + rounded corners */
-    border: 2px solid #444;
-    border-radius: 12px;
-
-    /* Clip the image to the rounded border */
-    overflow: hidden;
-
-    /* Background + depth */
-    background: #222;
-    padding: 6px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
-}
-
-.image-card img {
-    width: 100%;
-    height: auto;
-    display: block;
-
-    /* Optional but keeps harmony with the wrapper */
-    border-radius: 12px;
-}
-
-.image-card p {
-    margin-top: 0.75rem;
-    font-size: 1rem;
-    color: #e6e6e6;
-    font-weight: 500;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
-}
-
-
 /* ----------------------------------------
    BACK TO TOP BUTTON
 ----------------------------------------- */
