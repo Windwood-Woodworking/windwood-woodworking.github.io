@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+/* 1. Load the font (at the very top of your CSS) */
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+
+/* 2. Apply it to your site title */
+.site-title {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 2.4rem;      /* tweak to taste */
+  letter-spacing: 1px;    /* optional */
+  color: #c49a6c;         /* your warm gold */
+}
+
 
 /* ----------------------------------------
    NAVIGATION — CLEAN HORIZONTAL VERSION
