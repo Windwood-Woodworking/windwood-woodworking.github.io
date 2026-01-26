@@ -27,7 +27,7 @@
 
   // Caption element
   const caption = document.createElement("div");
-  caption.style.color = "white";
+  caption.style.color = "996633";
   caption.style.fontSize = "20px";
   caption.style.marginTop = "20px";
   caption.style.textAlign = "center";
