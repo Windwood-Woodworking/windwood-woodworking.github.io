@@ -64,7 +64,7 @@
   rightArrow.style.color = "white";
   rightArrow.style.cursor = "pointer";
   rightArrow.style.userSelect = "none";
-  rightArrow.style.zIndex = 10000";
+  rightArrow.style.zIndex = 10000;
   rightArrow.style.display = "none";
   document.body.appendChild(rightArrow);
 
