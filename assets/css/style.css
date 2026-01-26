@@ -11,7 +11,7 @@
 
 header .site-title {
   font-family: 'Charm', cursive !important;
-  font-weight: 400;
+  font-weight: 700!important;
   letter-spacing: 0 !important;
   color: #c49a6c;
   text-decoration: none;
@@ -25,7 +25,7 @@ header .site-title {
 
 /* 2. Apply it to your site title */
 .site-title {
-  font-family: 'Bilbo Swash Caps', cursive;
+  font-family: 'Charm', cursive!important;
   font-size: 2.4rem;      /* tweak to taste */
   letter-spacing: 1px;    /* optional */
   color: #c49a6c;         /* your warm gold */
