@@ -1,4 +1,4 @@
-<script>
+
 /*
   Inline Zoom & Pan for images with class "zoomable"
   - Wheel zoom (mouse wheel) while hovering
@@ -249,4 +249,4 @@
     applyTransform();
   });
 })();
-</script>
+
