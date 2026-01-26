@@ -5,17 +5,17 @@
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+
 
 
 header .site-title {
-  font-family: 'Bilbo Swash Caps', cursive !important;
-  font-weight: 400 !important;
+  font-family: 'Charm', cursive !important;
+  font-weight: 400;
   letter-spacing: 0 !important;
   color: #c49a6c;
   text-decoration: none;
   font-size: 3rem;        /* adjust to match Google preview */
-  font-weight: 400;       /* Bilbo Swash Caps is designed as 400 */
   letter-spacing: 0;      /* scripts look wrong with spacing */
   text-shadow: none;      /* remove shadow for clean script look */
   display: inline-block;
