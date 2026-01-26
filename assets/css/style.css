@@ -59,6 +59,23 @@
   display: none;
 }
 
+/* Remove all default button focus styling */
+.hamburger:focus,
+.hamburger:focus-visible,
+.hamburger:active {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Remove Firefox inner focus border */
+.hamburger::-moz-focus-inner {
+  border: 0;
+}
+
+.hamburger {
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media (max-width: 768px) {
 
   /* Show hamburger */
