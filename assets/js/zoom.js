@@ -6,7 +6,7 @@
   overlay.style.left = 0;
   overlay.style.width = "100vw";
   overlay.style.height = "100vh";
-  overlay.style.background = "rgba(0,0,0,0.85)";
+  overlay.style.background = "rgba(0,0,0,0.95)";
   overlay.style.display = "none";
   overlay.style.flexDirection = "column";
   overlay.style.alignItems = "center";
