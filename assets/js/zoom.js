@@ -8,6 +8,7 @@
   overlay.style.height = "100vh";
   overlay.style.background = "rgba(0,0,0,0.85)";
   overlay.style.display = "none";
+  overlay.style.flexDirection = "column";
   overlay.style.alignItems = "center";
   overlay.style.justifyContent = "center";
   overlay.style.zIndex = 9999;
@@ -19,10 +20,20 @@
   img.style.width = "auto";
   img.style.height = "auto";
   img.style.maxWidth = "95vw";
-  img.style.maxHeight = "95vh";
+  img.style.maxHeight = "80vh";
   img.style.boxShadow = "0 0 20px rgba(0,0,0,0.5)";
   img.style.borderRadius = "4px";
   overlay.appendChild(img);
+
+  // Caption element
+  const caption = document.createElement("div");
+  caption.style.color = "white";
+  caption.style.fontSize = "20px";
+  caption.style.marginTop = "20px";
+  caption.style.textAlign = "center";
+  caption.style.maxWidth = "90vw";
+  caption.style.lineHeight = "1.4";
+  overlay.appendChild(caption);
 
   // Close button
   const closeBtn = document.createElement("div");
@@ -74,7 +85,15 @@
 
   function showImage(i) {
     index = (i + images.length) % images.length;
-    img.src = images[index].src;
+    const thumb = images[index];
+
+    // Set image
+    img.src = thumb.src;
+
+    // Pull caption from <p> under the image
+    const parent = thumb.parentElement;
+    const p = parent.querySelector("p");
+    caption.textContent = p ? p.textContent : "";
   }
 
   // Open lightbox
@@ -115,3 +134,8 @@
 
   closeBtn.addEventListener("click", closeLightbox);
 })();
+
+
+
+
+
