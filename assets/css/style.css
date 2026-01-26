@@ -190,18 +190,42 @@ header .site-title {
     text-shadow: 0 1px 2px rgba(0,0,0,0.8);
 }
 
-/* Fix for the 3‑image row */
-.gallery.three-row {
+/* Three‑image row layout */
+.gallery-row {
     display: flex;
     justify-content: center;
-    gap: 0.25rem;        /* tighter spacing */
-    flex-wrap: nowrap;   /* prevents dropping to 2 rows */
+    gap: 1rem;
+    flex-wrap: nowrap;
+    margin: 2rem auto;
+    max-width: 900px;
 }
 
-.gallery.three-row > div {
-    width: 30%;          /* slightly wider but still fits */
-    min-width: 0;        /* prevents flex overflow */
+/* Each item inside the row */
+.gallery-row > div {
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
 }
+
+/* Images inside the row use the same card styling */
+.gallery-row img {
+    width: 100%;
+    height: auto;
+    border: 4px solid #444;
+    border-radius: 12px;
+    background: #222;
+    padding: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+.gallery-row p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #e6e6e6;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+
 
 /* ----------------------------------------
    BACK TO TOP BUTTON
