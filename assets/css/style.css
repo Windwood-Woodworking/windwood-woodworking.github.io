@@ -5,7 +5,21 @@
   text-align: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Crimson+Pro:wght@300;400;500;600&display=swap');
+
+h1, h2, .title {
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1.1;
+}
+
+body, p, .caption {
+  font-family: 'Crimson Pro', serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
 
 header .site-title {
   font-family: 'Tangerine', cursive !important;
@@ -333,7 +347,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #fff;
+  color: #996633;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
   font-weight: 600;
