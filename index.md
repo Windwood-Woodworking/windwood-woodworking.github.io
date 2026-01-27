@@ -23,7 +23,7 @@ title: Home
   <p style="
       margin-top: 0.75rem; 
       font-size: 1.5rem; 
-      color: #e6e6e6; 
+      color: #996633; 
       font-weight: 500;
       text-shadow: 0 1px 2px rgba(0,0,0,0.8);
     ">
